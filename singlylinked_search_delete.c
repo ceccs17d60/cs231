@@ -37,7 +37,7 @@ case 6:dlend();
 break;
 case 7:dlaftnode();
 break;
-exit(0);
+case 8:exit(0);
 break;
 default:printf("wrong choice\n");
 }
