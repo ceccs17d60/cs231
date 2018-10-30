@@ -62,7 +62,7 @@ k++;
 } 
 void printArray(int A[], int size) 
 { 
-int i;  
+int i,d;  
 for (i=0; i < size; i++) 
 printf("%d \n", A[i]); 
 
@@ -74,7 +74,7 @@ printf("enter a array limit:\n");
 scanf("%d",&k);
 int arr[k];
 printf("enter array elements:\n");
-for(int d=0;d<k;d++)
+for(d=0;d<k;d++)
 {
 scanf("%d",&arr[d]);
 }
