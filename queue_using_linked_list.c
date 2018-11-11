@@ -17,17 +17,17 @@ printf("enter your choice\n");
 printf("1.enqueue\n2.display\n3.delete\n4.exit\n");
 scanf("%d",&choice);
 switch(choice)
-{
-case 1:enqueue();
-break;
-case 2:display();
-break;
-case 3:dequeue();
-break;
-case 4:exit(0);
-break;
-default:printf("wrong choice\n");
-}
+ {
+ case 1:enqueue();
+ break;
+ case 2:display();
+ break;
+ case 3:dequeue();
+ break;
+ case 4:exit(0);
+ break;
+ default:printf("wrong choice\n");
+ }
 }
 }
 void enqueue()
@@ -61,11 +61,11 @@ printf("no elements \n ");
 else
 {
 printf("elements are:\n");
-while(ptr!=NULL)
-{
-printf("%d \n",ptr->data);
-ptr=ptr->next;
-}
+ while(ptr!=NULL)
+ {
+ printf("%d \n",ptr->data);
+ ptr=ptr->next;
+ }
 }
 }
 void dequeue()

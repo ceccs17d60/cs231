@@ -13,18 +13,18 @@ do
 {
 printf("1.enqueue\n2.dequeue\n3.display\n4.exit\n");
 scanf("%d",&choice);
-switch(choice)
-{
-case 1:enqueue();
-break;
-case 2:dequeue();
-break;
-case 3:display();
-break;
-case 4:exit(0);
-break;
-default:printf("wrong choice\n");
-}
+ switch(choice)
+ {
+ case 1:enqueue();
+ break;
+ case 2:dequeue();
+ break;
+ case 3:display();
+ break;
+ case 4:exit(0);
+ break;
+ default:printf("wrong choice\n");
+ }
 }
 while(choice<=4 && choice!=0);
 }
@@ -36,15 +36,15 @@ printf("queue is full\n");
 }
 else
 {
-if(rear==-1 && front==-1)
-{
-front=0;
-rear=0;
-}
-else
-{
-rear=rear+1;
-}
+ if(rear==-1 && front==-1)
+ {
+ front=0;
+ rear=0;
+ }
+ else
+ {
+ rear=rear+1;
+ }
 printf("enter the item\n");
 scanf("%d",&queue[rear]);
 printf("element is inserted\n");
@@ -60,10 +60,10 @@ printf("Queue is empty\n");
 else
 {
 printf("the elements are:\n");
-for(i=front;i<=rear;i++)
-{
-printf("%d \n",queue[i]);
-}
+ for(i=front;i<=rear;i++)
+ {
+ printf("%d \n",queue[i]);
+ }
 }
 }
 void dequeue()
