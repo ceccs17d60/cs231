@@ -1,6 +1,8 @@
 //Jacob Mathew
 //S3D
 //60
+
+
 #include <stdio.h>
 
 int sequentialSearch(int array[], int size, int element) {
