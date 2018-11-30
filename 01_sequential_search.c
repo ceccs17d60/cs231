@@ -1,4 +1,6 @@
-
+//Jacob Mathew
+//S3-DEHtoStRiF4EUMkFCvliFwlgmNq3OGUKvnYijLacFzE2mO7PEJX636v725EZJiXGS
+//60
 #include <stdio.h>
 
 int sequentialSearch(int array[], int size, int element) {
