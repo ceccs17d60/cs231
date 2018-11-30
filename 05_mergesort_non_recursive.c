@@ -1,3 +1,9 @@
+
+//Jacob Mathew
+//S3D
+//60
+
+
 #include<stdlib.h> 
 #include<stdio.h> 
 void merge(int arr[], int l, int m, int r); 
