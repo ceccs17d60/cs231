@@ -1,3 +1,8 @@
+//Jacob Mathew
+//S3D
+//60
+
+
 #include<stdio.h>
 #include<stdlib.h>
 struct node
