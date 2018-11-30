@@ -1,5 +1,5 @@
 //Jacob Mathew
-//S3-DEHtoStRiF4EUMkFCvliFwlgmNq3OGUKvnYijLacFzE2mO7PEJX636v725EZJiXGS
+//S3D
 //60
 #include <stdio.h>
 
