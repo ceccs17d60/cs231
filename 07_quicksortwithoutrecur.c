@@ -1,4 +1,4 @@
-Merge Sort recursion
+QuickSort without recursion
 
 //Jacob Mathew
 //S3D
