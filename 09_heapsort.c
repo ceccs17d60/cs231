@@ -1,5 +1,10 @@
+//Jacob Mathew
+//S3D
+//60
+
+
 #include <stdio.h>
- 
+
 void main()
 {
 int heap[10], no, i, j, c, root, temp;
