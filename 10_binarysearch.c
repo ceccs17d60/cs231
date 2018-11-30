@@ -1,3 +1,5 @@
+Binary search
+
 
 //Jacob Mathew
 //S3D
